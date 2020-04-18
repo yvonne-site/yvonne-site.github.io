@@ -1,15 +1,16 @@
 # Site settings
-title: DentistSmile | Dental Jekyll Theme
-description: "A responsive Jekyll theme for dental clinics."
+title: Yvonne Hand and Footcare
+description: "Professionele hand en voetzorg en medisch pedicure."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
 logo_url: svg/min/logo.svg
+incremental: true
 
 # Hero
-hero: 
+hero:
     hero_img: hero.jpg
-    hero_title: DentistSmile
-    hero_description: A responsive Jekyll theme for dental clinics.
+    hero_title: Yvonne Hand and Footcare
+    hero_description: Professionele hand en voetzorg en medisch pedicure.
 
 # Contact form
 api_token: # Enter API token here
@@ -61,5 +62,5 @@ exclude: [
 ]
 
 # Theme Settings
-analytics: 
+analytics:
 google_verification:

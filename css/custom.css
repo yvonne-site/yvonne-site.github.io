@@ -1,0 +1,39 @@
+/*!
+ * custom.css
+ *
+ * Custom stylesheet for the dentistsmile jekyll theme.
+ *
+ * @author:  Mickey Beurskens
+ * @date:    2020-04-18
+ */
+
+.hero-padding{
+  padding-top: 40vh;
+}
+
+.banner-content{
+  padding: 10px 0 0 0;
+  background: rgba(255,255,255,0.7)
+}
+
+@media (min-width: 768px){
+  .banner-content{
+    width:100%}
+}
+
+@media (min-width: 768px){
+  .banner-content .banner-content-inner{
+    width: 50%;
+    padding: 0.8em 0;
+  }
+}
+
+.banner-content h1{
+  margin:0 0 5px;
+  color: #3dadb2;
+}
+
+.banner-content p{
+  font-size: 1.125rem;
+  padding-bottom: 0.7em;
+}
