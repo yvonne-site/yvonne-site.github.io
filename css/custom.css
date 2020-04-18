@@ -37,3 +37,7 @@
   font-size: 1.125rem;
   padding-bottom: 0.7em;
 }
+
+.navbar-header #navbar-logo{
+  width: 8em;
+}

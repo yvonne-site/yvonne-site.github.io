@@ -3,7 +3,7 @@ title: Yvonne Hand and Footcare
 description: "Professionele hand en voetzorg en medisch pedicure."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
-logo_url: svg/min/logo.svg
+logo_url: img/logo.jpg
 incremental: true
 
 # Hero
