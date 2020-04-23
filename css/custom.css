@@ -12,30 +12,30 @@
 }
 
 .banner-content{
-  padding: 10px 0 0 0;
-  background: rgba(255,255,255,0.7)
+  padding: 15px;
+  background: rgba(255,255,255,0.7);
+  position: absolute;
+  bottom: 0;
 }
 
-@media (min-width: 768px){
+.banner-content .banner-content-inner{
+  width: 100%;
+}
+
+@media (min-width: 100px){
   .banner-content{
-    width:100%}
-}
-
-@media (min-width: 768px){
-  .banner-content .banner-content-inner{
-    width: 50%;
-    padding: 0.8em 0;
+    width:100%
   }
 }
 
+
 .banner-content h1{
   margin:0 0 5px;
-  color: #3dadb2;
+  color: #3dadb2
 }
 
 .banner-content p{
   font-size: 1.125rem;
-  padding-bottom: 0.7em;
 }
 
 .navbar-header #navbar-logo{

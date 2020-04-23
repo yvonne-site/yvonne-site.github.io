@@ -1,14 +1,39 @@
 <!-- Start Hero -->
-<div class="hero hero-padding" style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: cover; background-position: bottom;">
-
-    <div class="banner-content">
-      <div class="container-fluid">
-        <div class="banner-content-inner">
-          <h1>{{ site.hero.hero_title }}</h1>
-          <p>{{ site.hero.hero_description }}</p>
-        </div>
-      </div>
+<div class="hero">
+  <!-- Slideshow container -->
+  <div class="slideshow-container">
+    <!-- Image slides -->
+    <div class="slide carousel-fade">
+      <div class="numbertext">1/3</div>
+      <img src="img/slide-1.jpg" style="width:100%">
+      <div class="caption">Beautiful caption</div>
     </div>
 
+    <div class="slide carousel-fade">
+      <div class="numbertext">2/3</div>
+      <img src="img/slide-2.jpg" style="width:100%">
+      <div class="caption">Also beautiful caption</div>
+
+    </div>
+    <div class="slide carousel-fade">
+      <div class="numbertext">3/3</div>
+      <img src="img/slide-3.jpg" style="width:100%">
+      <div class="caption">Also very beautiful caption</div>
+    </div>
+
+    <a class="prev" onclick="moveSlides(-1)">&#10094;</a>
+    <a class="next" onclick="moveSlides(1)">&#10095;</a>
+
+    <div class="banner-content">
+      <div class="banner-content-inner">
+        <h1>{{ site.hero.hero_title }}</h1>
+        <p>{{ site.hero.hero_description }}</p>
+      </div>
+    </div>
+  </div> <!-- Slideshow -->
+  <br>
+
+  <!-- Javascript include -->
+  <script type="text/javascript" src="js/carousel.js"></script>
 </div>
 <!-- End Hero -->
