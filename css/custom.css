@@ -41,3 +41,14 @@
 .navbar-header #navbar-logo{
   width: 8em;
 }
+
+/* Three columns */
+
+.three-shade-col li{
+  padding: 0.4em 0;
+}
+
+.three-shade-col table td:last-child{
+  padding: 0.4em 0;
+  text-align: center;
+}
