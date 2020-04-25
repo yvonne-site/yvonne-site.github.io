@@ -22,53 +22,6 @@ body {
   height: 60vh;
 }
 
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -0.6em;
-  padding:0.6em;
-  color: white;
-  font-weight: bold;
-  font-size: 1.2em;
-  transition: 0.6s ease;
-  border-radius: 0 .2em .2em 0;
-  user-select: none;
-}
-
-.next {
-  right: 0%;
-  border-radius: .2em 0 0 .2em;
-}
-
-.prev:hover, .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-  animation-name: arrow;
-  duration-name: font-size 0.3s ease;
-  font-size: 2em;
-}
-
-/* Caption text */
-.caption {
-  color: #f2f2f2;
-  font-size: 1em;
-  padding: 8px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  position: absolute;
-  top: 0;
-  padding: 8px 12px;
-
-}
-
 /* Fading animation*/
 .carousel-fade {
   -webkit-animation-name: carousel-fade;
