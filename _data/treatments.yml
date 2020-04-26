@@ -1,23 +1,15 @@
 - icon: icon-user-md
-  title: Invisible braces
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
-
-- icon: icon-diamond
-  title: Cosmetic Dentistry
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  title: Standaard behandeling
+  description: Een standaard voetbehandeling waarbij de gezondheid van de voet weer op order wordt gebracht door nagels knippen, frezen, eelt verwijdering en dergelijke.
 
 - icon: icon-flask
-  title: Stain removal
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+  title: Ingroeiende nagels
+  description: Correctie van ingroeiende nagels door middel van nagel beugel techniek.
 
-- icon: icon-globe
-  title: Dentures
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+- icon: icon-user-md
+  title: Reumatische voet
+  description: Behandeling voor de reumatische voet.
 
-- icon: icon-ambulance
-  title: Emergency Calls
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
-
-- icon: icon-bed
-  title: Sedation
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+- icon: icon-diamond
+  title: Diabetische voet
+  description: Behandeling voor de diabetische voet.
