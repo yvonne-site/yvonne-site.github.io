@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Carousel</title>
+
+    <!-- CSS include -->
+    <link rel="stylesheet" href="css/carousel.css">
+  </head>
+
+  <body>
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+      <!-- Image slides -->
+      <div class="slide fade">
+        <div class="numbertext">1/3</div>
+        <img src="img/slide-1.jpg" style="width:100%">
+        <div class="caption">Beautiful caption</div>
+      </div>
+
+      <div class="slide fade">
+        <div class="numbertext">2/3</div>
+        <img src="img/slide-2.jpg" style="width:100%">
+        <div class="caption">Also beautiful caption</div>
+      </div>
+
+      <div class="slide fade">
+        <div class="numbertext">3/3</div>
+        <img src="img/slide-3.jpg" style="width:100%">
+        <div class="caption">Also very beautiful caption</div>
+      </div>
+
+      <a class="prev" onclick="moveSlides(-1)">&#10094;</a>
+      <a class="next" onclick="moveSlides(1)">&#10095;</a>
+    </div> <!-- Slideshow -->
+    <br>
+
+    <div style="text-align:center;">
+      <span class="dot" onclick="showSlide(1)"></span>
+      <span class="dot" onclick="showSlide(2)"></span>
+      <span class="dot" onclick="showSlide(3)"></span>
+    </div>
+
+    <!-- Javascript include -->
+    <script type="text/javascript" src="js/carousel.js"></script>
+  </body>
+</html>
