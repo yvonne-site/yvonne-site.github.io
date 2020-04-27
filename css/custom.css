@@ -109,3 +109,43 @@ a:hover {
 }
 
 /* Team */
+.team{
+  background-color: #259696;
+}
+
+.team-member-inner{
+  padding: 40px 18%;
+  margin: auto;
+  text-align: center;
+  border-radius: 5%;
+  background-color: #29A5A5;
+  width: 80%;
+}
+
+.team-member-inner p{
+  padding-top: 2em;
+  text-align: left;
+  margin: auto;
+  max-width: 450px;
+}
+
+.team-member-inner img{
+  border-radius: 50%;
+  max-width: 300px;
+}
+
+.team-member-inner .section-title{
+  color: white;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.team-member-inner h4{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.team-member-inner .oi{
+  text-align: right;
+  color: white;
+}
