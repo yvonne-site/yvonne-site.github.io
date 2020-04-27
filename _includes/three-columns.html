@@ -1,15 +1,15 @@
 <!-- Start 3 columns -->
 <div class="three-shade-col">
     <div class="col-sm-4">
-        <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
-        <h3>Wilt U Een Afspraak?</h3>
-        <ul>
-            {% if site.contact.phone %}<li><strong>Telefoon:</strong> {{ site.contact.phone }}</li>{% endif %}
-            {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
-        </ul>
+      <span class="oi" data-glyph="envelope-closed" title="envelope-closed" aria-hidden="true"></span>
+      <h3>Wilt U Een Afspraak?</h3>
+      <ul>
+          {% if site.contact.phone %}<li><strong>Telefoon:</strong> {{ site.contact.phone }}</li>{% endif %}
+          {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
+      </ul>
     </div>
     <div class="col-sm-4">
-        <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
+        <span class="oi" data-glyph="clock" title="clock" aria-hidden="true"></span>
         <h3>Openings Tijden</h3>
         <table>
             <tbody>
@@ -26,7 +26,7 @@
         </table>
     </div>
     <div class="col-sm-4">
-        <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
+        <span class="oi" data-glyph="map-marker" title="map-marker" aria-hidden="true"></span>
         <h3>Locatie</h3>
             <p>
                 {{ site.contact.address }}

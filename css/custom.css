@@ -7,6 +7,32 @@
  * @date:    2020-04-18
  */
 
+ /*
+ * Custom colour pallete
+   #259696
+   #29A5A5
+   #42B7B7
+   #5AC9C9
+   #BDF7EF
+   #FFFFFF
+   #F5BAF2
+ */
+
+a {
+  color: #42B7B7;
+  text-decoration: none;
+}
+
+a:visited, a:active{
+  color: #259696;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F5BAF2;
+  text-decoration: none;
+}
+
 .hero-padding{
   padding-top: 40vh;
 }
@@ -28,10 +54,9 @@
   }
 }
 
-
 .banner-content h1{
   margin:0 0 5px;
-  color: #3dadb2;
+  color: #29A5A5;
 }
 
 .banner-content p{
@@ -43,6 +68,17 @@
 }
 
 /* Three columns */
+.three-shade-col [class^="col-"]:first-child{
+  background: #29A5A5;
+}
+
+.three-shade-col [class^="col-"]:nth-child(2){
+  background: #42B7B7;
+}
+
+.three-shade-col [class^="col-"]:last-child{
+  background: #5AC9C9;
+}
 
 .three-shade-col li{
   padding: 0.4em 0;
@@ -52,3 +88,24 @@
   padding: 0.4em 0;
   text-align: center;
 }
+
+.three-shade-col .oi{
+  font-size: 3em;
+}
+
+/* About */
+.boxed-icon .oi{
+  color: #5AC9C9;
+  font-size: 14px;
+}
+
+.boxed-icon{
+  border-color: #29A5A5;
+}
+
+/* Treatments */
+.icon-box .oi{
+  color: #F5BAF2;
+}
+
+/* Team */

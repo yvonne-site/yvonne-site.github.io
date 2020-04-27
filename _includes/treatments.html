@@ -6,11 +6,10 @@
             {% for treatment in site.data.treatments %}
                 <div class="col-sm-6 col-md-3">
                     <div class="icon-box">
-                       <span class="oi" data-glyph="yen" title="yen" aria-hidden="true"></span>
+                       <span class="oi" data-glyph="{{ treatment.icon }}" title="yen" aria-hidden="true"></span>
 
-                      <!--  <svg class="icon {{ treatment.icon }}"><use href="#{{ treatment.icon }}"></use></svg>
-                        --><h4>{{ treatment.title }}</h4>
-                        <p>{{ treatment.description }}</p>
+                       <h4>{{ treatment.title }}</h4>
+                       <p>{{ treatment.description }}</p>
                     </div>
                 </div>
             {% endfor %}

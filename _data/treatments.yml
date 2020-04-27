@@ -1,15 +1,15 @@
-- icon: icon-user-md
+- icon: medical-cross
   title: Standaard behandeling
   description: Nagels knippen, frezen, eelt verwijdering en dergelijke.
 
-- icon: icon-flask
+- icon: person
   title: Ingroeiende nagels
   description: Correctie van ingroeiende nagels door middel van nagel beugel techniek.
 
-- icon: icon-user-md
+- icon: eyedropper
   title: Reumatische voet
   description: Behandeling voor de reumatische voet.
 
-- icon: icon-diamond
+- icon: medical-cross
   title: Diabetische voet
   description: Behandeling voor de diabetische voet.
