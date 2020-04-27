@@ -33,6 +33,17 @@ a:hover {
   text-decoration: none;
 }
 
+a.anchor {
+    display: block;
+    position: relative;
+    top: -4em;
+    visibility: hidden;
+}
+
+/* Navbar */
+
+/* Banner */
+
 .hero-padding{
   padding-top: 40vh;
 }
