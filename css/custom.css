@@ -142,7 +142,8 @@ a.anchor {
 
 .team-member-inner img{
   border-radius: 50%;
-  max-width: 300px;
+  min-width: 100px;
+  margin: auto;
 }
 
 .team-member-inner .section-title{
