@@ -41,7 +41,9 @@ a.anchor {
 }
 
 /* Navbar */
-
+.navbar-brand{
+  border-color: #F5BAF2;
+}
 /* Banner */
 
 .hero-padding{
@@ -112,6 +114,10 @@ a.anchor {
 
 .boxed-icon{
   border-color: #29A5A5;
+}
+
+.about .below-img{
+  margin-top: 12px;
 }
 
 /* Treatments */
