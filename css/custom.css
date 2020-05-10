@@ -18,6 +18,10 @@
    #F5BAF2
  */
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   color: #42B7B7;
   text-decoration: none;
@@ -45,9 +49,19 @@ a.anchor {
   border-color: #F5BAF2;
 }
 
-.scroll{
+.scroll {
   color: rgb(225, 85, 85);
   font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #29A5A5;
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > .scroll-ac{
+  background-color: #29A5A5;
+  color: white;
 }
 
 /* Banner */
@@ -155,7 +169,6 @@ a.anchor {
 .team-member-inner img{
   border-radius: 50%;
   min-width: 100px;
-  max-width: 400px;
   margin: auto;
 }
 
