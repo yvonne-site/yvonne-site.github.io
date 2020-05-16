@@ -101,6 +101,19 @@ a.anchor {
 }
 
 /* Three columns */
+.three-col-link, .three-col-link:active, .three-col-link:visited{
+  color: white;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.three-col-link:hover{
+  color: #29A5A5;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+
 .three-shade-col [class^="col-"]:first-child{
   background: #29A5A5;
 }
