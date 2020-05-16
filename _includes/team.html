@@ -10,7 +10,7 @@
       <h3 class="section-title">Neem contact op</h3>
         <h4>
           <span class="oi" data-glyph="phone" title="phone" aria-hidden="true"></span>
-          +316 22 22 22 22
+          {% if site.contact.phone %}<strong>Telefoon:</strong> {{ site.contact.phone }}{% endif %}
         </h4>
     {% endfor %}
     </div>
