@@ -25,9 +25,9 @@ body {
 /* Fading animation*/
 .carousel-fade {
   -webkit-animation-name: carousel-fade;
-  -webkit-duration-name: 1.5s;
+  -webkit-duration-name: 2.5s;
   animation-name: carousel-fade;
-  animation-duration: 1.5s;
+  animation-duration: 2.5s;
 }
 
 @-webkit-keyframes carousel-fade {
