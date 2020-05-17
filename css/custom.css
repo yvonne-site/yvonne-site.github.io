@@ -45,6 +45,23 @@ a.anchor {
 }
 
 /* Navbar */
+/* Menu toggle animation */
+.menu-fade {
+  -webkit-animation-name: menu-fade;
+  -webkit-duration-name: 1.0s;
+  animation-name: menu-fade;
+  animation-duration: 1.0s;
+}
+
+@-webkit-keyframes menu-fade {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+@keyframes menu-fade {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
 .navbar-brand{
   border-color: #F5BAF2;
 }

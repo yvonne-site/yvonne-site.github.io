@@ -1,15 +1,3 @@
-function toggleNavigationMenu() {
-    var collapseElement = document.getElementById("bs-example-navbar-collapse-1");
-    if (collapseElement.classList.contains("collapse")) {
-        document.getElementById("bs-example-navbar-collapse-1").className += " collapse.in";
-        document.getElementById("bs-example-navbar-collapse-1").className = document.getElementById("bs-example-navbar-collapse-1").className.replace( /(?:^|\s)collapse(?!\S)/g , '' )
-    }
-    else if (collapseElement.classList.contains("collapse.in")) {
-        document.getElementById("bs-example-navbar-collapse-1").className += " collapse";
-        document.getElementById("bs-example-navbar-collapse-1").className = document.getElementById("bs-example-navbar-collapse-1").className.replace( /(?:^|\s)collapse.in(?!\S)/g , '' )
-    }
-}
-
 (function($) {
     'use strict';
 
