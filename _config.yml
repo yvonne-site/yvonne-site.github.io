@@ -19,7 +19,7 @@ api_token: # Enter API token here
 contact:
     phone: +316 34 60 40 32
     email: yvonne.burda@hotmail.com
-    address: Burgemeester Pijlsstraat 5b, <br> Schinnen
+    address: Burgemeester Pijlsstraat 5b, 6365 CG, <br> Schinnen
 
 # Testimonials
 testimonials:
@@ -28,7 +28,7 @@ testimonials:
 # Map
 map:
     zoom: 17
-    address: Burgemeester Pijlsstraat 5b, Schinnen
+    address: Burgemeester Pijlsstraat 5b, 6365 CG, Schinnen
     address_details: svg/min/logo.svg
 
 # Social settings
