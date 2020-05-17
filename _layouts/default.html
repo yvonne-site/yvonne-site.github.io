@@ -6,11 +6,11 @@
     <![endif]-->
 
     {% include header.html %}
- 
+
         {{ content }}
-           
+
     {% include footer.html %}
-    
+
     {% if site.analytics %}
         {% include analytics.html %}
     {% endif %}
@@ -18,5 +18,6 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script src="{{ site.baseurl }}/js/all.min.js"></script>
+    <script src="{{ site.baseurl }}/js/bootstrap.js"></script>
 </body>
 </html>

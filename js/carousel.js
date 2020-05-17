@@ -5,21 +5,6 @@ var prevNextFlag = false;
 
 showSlide();
 
-function toggleClassVisibility(flag, element) {
-  // Toggle class visibility based on flag
-  var index;
-  var slideNumbers = document.getElementsByClassName(element)
-  var displayStyle = "none"
-
-  if(flag) {
-    displayStyle = "block"
-  }
-
-  for(index = 0; index < slideNumbers.length; index++) {
-    slideNumbers[index].style.display = displayStyle;
-  }
-}
-
 function showSlide() {
   // Show slide n in the list. Crop n if it is too large or small.
   var i;

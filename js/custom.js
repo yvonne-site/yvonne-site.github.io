@@ -1,3 +1,15 @@
+function toggleNavigationMenu() {
+    var collapseElement = document.getElementById("bs-example-navbar-collapse-1");
+    if (collapseElement.classList.contains("collapse")) {
+        document.getElementById("bs-example-navbar-collapse-1").className += " collapse.in";
+        document.getElementById("bs-example-navbar-collapse-1").className = document.getElementById("bs-example-navbar-collapse-1").className.replace( /(?:^|\s)collapse(?!\S)/g , '' )
+    }
+    else if (collapseElement.classList.contains("collapse.in")) {
+        document.getElementById("bs-example-navbar-collapse-1").className += " collapse";
+        document.getElementById("bs-example-navbar-collapse-1").className = document.getElementById("bs-example-navbar-collapse-1").className.replace( /(?:^|\s)collapse.in(?!\S)/g , '' )
+    }
+}
+
 (function($) {
     'use strict';
 
@@ -26,24 +38,24 @@
     /* Team slideshow
     ----------------------------------------------*/
     $("#team-carousel").owlCarousel({
- 
+
         autoPlay: 5000, //Set AutoPlay to 5 seconds
 
         items : 4,
         itemsDesktopSmall : [979,3],
         stopOnHover: true
- 
+
     });
 
     /* Testimonials slideshow
     ----------------------------------------------*/
     $("#testimonial-carousel").owlCarousel({
- 
+
         autoPlay: 6000, //Set AutoPlay to 6 seconds
- 
+
         singleItem: true,
         pagination : false
- 
+
     });
 
     /* Tooltip
@@ -59,13 +71,13 @@
     /* Google map
     ----------------------------------------------*/
     $(".map").each(function(){
-            
+
         var data_zoom = 17;
-        
+
         if ($(this).attr("data-zoom") !== undefined) {
             data_zoom = parseInt($(this).attr("data-zoom"),10);
-        }   
-        
+        }
+
         $(this).gmap3({
             marker: {
                 values: [{
@@ -85,7 +97,7 @@
                         } else {
                             $(this).gmap3({
                                 infowindow:{
-                                    anchor:marker, 
+                                    anchor:marker,
                                     options:{content: context.data}
                                 }
                             });
@@ -101,8 +113,7 @@
                 }
             }
         });
-        
-    });
-          
-})(jQuery);
 
+    });
+
+})(jQuery);
