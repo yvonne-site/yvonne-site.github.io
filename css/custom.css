@@ -201,6 +201,7 @@ a.anchor {
 
 .team-member-inner img{
   border-radius: 50%;
+  width: 300px;
   min-width: 100px;
   margin: auto;
 }
