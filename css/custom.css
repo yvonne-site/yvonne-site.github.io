@@ -220,3 +220,28 @@ a.anchor {
   text-align: right;
   color: white;
 }
+
+.team {
+  padding-bottom: 10px;
+}
+
+/* Footer */
+.foot{
+  list-style: none;
+  display: inline;
+}
+
+.foot a{
+  color: white;
+  text-decoration: underline;
+}
+
+.foot li {
+  margin-top: 5px;
+}
+
+.main-footer {
+  background-color: #259696;
+  padding-top: 0;
+  padding-bottom: 30px;
+}

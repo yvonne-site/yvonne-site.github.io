@@ -1,5 +1,5 @@
 # Site settings
-title: Yvonne Hand and Footcare
+title: Hand & Footcare Yvonne
 description: "Professionele hand en voetzorg en medisch pedicure."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
@@ -9,7 +9,7 @@ incremental: true
 # Hero
 hero:
     hero_img: hero.jpg
-    hero_title: Yvonne Hand and Footcare
+    hero_title: Hand & Footcare Yvonne
     hero_description: Professionele hand en voetzorg en medisch pedicure.
 
 # Contact form
@@ -39,7 +39,7 @@ youtube: http://youtube.com
 feed: yes
 
 # Footer
-copyright: © 2015 DentistSmile - All rights reserved
+copyright: © 2020 Mickey Beurskens
 
 # Build settings
 markdown: kramdown
