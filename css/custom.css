@@ -57,6 +57,7 @@ a.anchor {
   from {opacity: 0}
   to {opacity: 1}
 }
+
 @keyframes menu-fade {
   from {opacity: 0}
   to {opacity: 1}
@@ -72,11 +73,6 @@ a.anchor {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  background-color: #29A5A5;
-  color: white;
-}
-
- .navbar-default .navbar-nav > li > .scroll-active{
   background-color: #29A5A5;
   color: white;
 }
